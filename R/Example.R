@@ -1,13 +1,13 @@
 #' Component Title'
-#' 
+#'
 #' @description
 #' Component Description
-#'  
+#'
 #' @usage NULL
-#' @returns a list value: 
+#' @returns a list value:
 #' * `example <- Example()`
 #' * `x <- 10`
-#' * `x |> Example()`
+#' * `x |> example$AddOne()`
 #' @export
 Example <- \() {
   members <- list()
